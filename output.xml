@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170830 15:31:33.857" generator="Robot 3.0.2 (Python 2.7.8 on win32)">
+<suite source="D:\Robotframework-selenium\ROBOJenkin\robojenkinfile.robot" id="s1" name="Robojenkinfile">
+<test id="s1-t1" name="Facebook loging and search for friends">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>https://www.wikipedia.com</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20170830 15:31:34.076" level="INFO">Opening browser 'chrome' to base url 'https://www.wikipedia.com'</msg>
+<status status="PASS" endtime="20170830 15:31:43.340" starttime="20170830 15:31:34.076"></status>
+</kw>
+<doc>login and search for a name</doc>
+<tags>
+<tag>E2E flow</tag>
+<tag>regression</tag>
+</tags>
+<status status="PASS" endtime="20170830 15:31:43.341" critical="yes" starttime="20170830 15:31:34.076"></status>
+</test>
+<status status="PASS" endtime="20170830 15:31:43.345" starttime="20170830 15:31:33.857"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">E2E flow</stat>
+<stat fail="0" pass="1">regression</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Robojenkinfile" pass="1">Robojenkinfile</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20170830 15:31:33.888" level="ERROR">Error in file 'D:\Robotframework-selenium\ROBOJenkin\robojenkinfile.robot': Importing test library 'Dailog' failed: ImportError: No module named Dailog
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\WINDOWS\system32\python27.zip
+  C:\Python27\DLLs
+  C:\Python27\lib
+  C:\Python27\lib\plat-win
+  C:\Python27\lib\lib-tk
+  C:\Python27
+  C:\Python27\lib\site-packages
+  C:\Python27\lib\site-packages\setuptools-36.2.0-py2.7.egg
+  C:\Python27\lib\site-packages\pip-9.0.1-py2.7.egg
+  C:\Python27\lib\site-packages\nose-1.3.7-py2.7.egg
+  C:\Python27\lib\site-packages\wx-3.0-msw</msg>
+</errors>
+</robot>

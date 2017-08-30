@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170830 16:28:18.075" generator="Robot 3.0.2 (Python 2.7.8 on win32)">
+<suite source="D:\Robotframework-selenium\ROBOJenkin\robojenkinfile.robot" id="s1" name="Robojenkinfile">
+<test id="s1-t1" name="Facebook loging and search for friends">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>https://www.wikipedia.com</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20170830 16:28:18.247" level="INFO">Opening browser 'chrome' to base url 'https://www.wikipedia.com'</msg>
+<status status="PASS" endtime="20170830 16:28:26.559" starttime="20170830 16:28:18.247"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170830 16:28:26.560" level="INFO">chrome</msg>
+<status status="PASS" endtime="20170830 16:28:26.560" starttime="20170830 16:28:26.560"></status>
+</kw>
+<doc>login and search for a name</doc>
+<tags>
+<tag>E2E flow</tag>
+<tag>regression</tag>
+</tags>
+<status status="PASS" endtime="20170830 16:28:26.561" critical="yes" starttime="20170830 16:28:18.247"></status>
+</test>
+<status status="PASS" endtime="20170830 16:28:26.568" starttime="20170830 16:28:18.075"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">E2E flow</stat>
+<stat fail="0" pass="1">regression</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Robojenkinfile" pass="1">Robojenkinfile</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
